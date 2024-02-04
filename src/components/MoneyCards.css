@@ -1,0 +1,30 @@
+.moneycard-body{
+    background-color: aqua;
+    height: 18em;
+    width: 13em;
+    border-radius: 7px;
+}
+.moneycard-imgframe{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding:10px ;
+}
+.moneycard-img{
+    width: 90%;
+    height: 70%;    
+}
+.moneycard-img:hover{
+    transform: scale(1.05);
+}
+.moneycard-info{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    right: 7px;
+}
+.moneycard-body:hover{
+    background-color: rgb(74, 218, 218);
+    transform: scale(1.05);
+}
